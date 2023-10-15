@@ -1,0 +1,50 @@
+digraph {
+	node [shape=box]
+	0 [label="Glucose < 123.5"]
+	1 [label="Outcome
+No"]
+	0 -> 1 [label=True]
+	2 [label="Glucose < 159.5"]
+	0 -> 2 [label=False]
+	3 [label="BMI < 27.2500"]
+	2 -> 3 [label=True]
+	4 [label="Outcome
+Yes"]
+	2 -> 4 [label=False]
+	5 [label="Outcome
+No"]
+	3 -> 5 [label=True]
+	6 [label="Age < 30.5"]
+	3 -> 6 [label=False]
+	7 [label="BloodPressure < 73.0"]
+	6 -> 7 [label=True]
+	8 [label="BMI < 30.0500"]
+	6 -> 8 [label=False]
+	9 [label="Age < 22.5"]
+	7 -> 9 [label=True]
+	10 [label="Glucose < 157.5"]
+	7 -> 10 [label=False]
+	11 [label="Outcome
+No"]
+	8 -> 11 [label=True]
+	12 [label="Outcome
+Yes"]
+	8 -> 12 [label=False]
+	13 [label="Outcome
+No"]
+	9 -> 13 [label=True]
+	14 [label="Outcome
+Yes"]
+	9 -> 14 [label=False]
+	15 [label="BMI < 41.8000"]
+	10 -> 15 [label=True]
+	16 [label="Outcome
+Yes"]
+	10 -> 16 [label=False]
+	17 [label="Outcome
+No"]
+	15 -> 17 [label=True]
+	18 [label="Outcome
+Yes"]
+	15 -> 18 [label=False]
+}
